@@ -1,0 +1,32 @@
+.grid-container {
+    padding: 10%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,10vw);
+    grid-gap: 2.0rem;
+    justify-items: center;
+  }
+  .grid-item img {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 999;
+    /* display:flexbox; */
+    margin: 5%;
+    border-radius: 4%;
+    width: 100%;
+    height: 100%;
+  }
+  .gallery {
+    height:100%;
+ /* padding: 10% 20%;  */
+    width: 100%;
+  }
+  section .content{
+    width:90%;
+    height:100%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
